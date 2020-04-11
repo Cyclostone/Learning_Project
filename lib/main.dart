@@ -5,6 +5,8 @@ import 'package:learning_platform_app/pages/duodenum_content/introduction_etymol
 import 'package:learning_platform_app/pages/esophagus_content/introduction.dart';
 import 'package:learning_platform_app/pages/jejunum_ileum_content/terminology.dart';
 import 'package:learning_platform_app/pages/liver_content/etymology_location_size_movement.dart';
+import 'package:learning_platform_app/pages/oralCavity_content/boundaries.dart';
+import 'package:learning_platform_app/pages/palate_content/definition_parts.dart';
 import 'package:learning_platform_app/size_config.dart';
 
 import 'pages/welcome_screen.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
               debugShowCheckedModeBanner: false,
               title: 'Learning Platform Application',
               theme: AppTheme.lightTheme,
-              home: HomeScreen(),
+              home: DefPalatePage(),
             );
           },
         );
