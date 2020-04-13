@@ -54,7 +54,12 @@ flutter:
    - assets/jejunumileumpictures/
    - assets/liverpictures/
    - assets/oralcavitypictures/
-   - assets/palatepictures/ 
+   - assets/palatepictures/
+   - assets/largeintestinepictures/
+   - assets/vermiformappendixpictures/
+   - assets/anorectumpictures/
+   - assets/peritoneumpictures/
+   - assets/processpictures/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

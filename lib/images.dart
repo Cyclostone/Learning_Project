@@ -264,5 +264,219 @@ class Images {
   static const String palate26 = "assets/palatepictures/palate26.png";
   static const String palate27 = "assets/palatepictures/palate27.png";
   static const String palate28 = "assets/palatepictures/palate28.png";
-  
+  static const String lg1 = "assets/largeintestinepictures/largeintestine1.png";
+  static const String lg2 = "assets/largeintestinepictures/largeintestine2.png";
+  static const String lg3 = "assets/largeintestinepictures/largeintestine3.png";
+  static const String lg4 = "assets/largeintestinepictures/largeintestine4.png";
+  static const String lg5 = "assets/largeintestinepictures/largeintestine5.png";
+  static const String lg6 = "assets/largeintestinepictures/largeintestine6.png";
+  static const String lg7 = "assets/largeintestinepictures/largeintestine7.png";
+  static const String lg8 = "assets/largeintestinepictures/largeintestine8.png";
+  static const String lg9 = "assets/largeintestinepictures/largeintestine9.png";
+  static const String lg10 =
+      "assets/largeintestinepictures/largeintestine10.png";
+  static const String lg11 =
+      "assets/largeintestinepictures/largeintestine11.png";
+  static const String lg12 =
+      "assets/largeintestinepictures/largeintestine12.png";
+  static const String lg13 =
+      "assets/largeintestinepictures/largeintestine13.png";
+  static const String lg14 =
+      "assets/largeintestinepictures/largeintestine14.png";
+  static const String lg15 =
+      "assets/largeintestinepictures/largeintestine15.png";
+  static const String lg16 =
+      "assets/largeintestinepictures/largeintestine16.png";
+  static const String lg17 =
+      "assets/largeintestinepictures/largeintestine17.png";
+  static const String lg18 =
+      "assets/largeintestinepictures/largeintestine18.png";
+  static const String lg19 =
+      "assets/largeintestinepictures/largeintestine19.png";
+  static const String lg20 =
+      "assets/largeintestinepictures/largeintestine20.png";
+  static const String lg21 =
+      "assets/largeintestinepictures/largeintestine21.png";
+  static const String lg22 =
+      "assets/largeintestinepictures/largeintestine22.png";
+  static const String lg23 =
+      "assets/largeintestinepictures/largeintestine23.png";
+  static const String lg24 =
+      "assets/largeintestinepictures/largeintestine24.png";
+  static const String lg25 =
+      "assets/largeintestinepictures/largeintestine25.png";
+  static const String lg26 =
+      "assets/largeintestinepictures/largeintestine26.png";
+  static const String lg27 =
+      "assets/largeintestinepictures/largeintestine27.png";
+  static const String lg28 =
+      "assets/largeintestinepictures/largeintestine28.png";
+  static const String lg29 =
+      "assets/largeintestinepictures/largeintestine29.png";
+  static const String lg30 =
+      "assets/largeintestinepictures/largeintestine30.png";
+  static const String lg31 =
+      "assets/largeintestinepictures/largeintestine31.png";
+  static const String lg32 =
+      "assets/largeintestinepictures/largeintestine32.png";
+  static const String lg33 =
+      "assets/largeintestinepictures/largeintestine33.png";
+  static const String lg34 =
+      "assets/largeintestinepictures/largeintestine34.png";
+  static const String lg35 =
+      "assets/largeintestinepictures/largeintestine35.png";
+  static const String lg36 =
+      "assets/largeintestinepictures/largeintestine36.png";
+  static const String lg37 =
+      "assets/largeintestinepictures/largeintestine37.png";
+  static const String lg38 =
+      "assets/largeintestinepictures/largeintestine38.png";
+  static const String lg39 =
+      "assets/largeintestinepictures/largeintestine39.png";
+  static const String lg40 =
+      "assets/largeintestinepictures/largeintestine40.png";
+  static const String lg41 =
+      "assets/largeintestinepictures/largeintestine41.png";
+  static const String lg42 =
+      "assets/largeintestinepictures/largeintestine42.png";
+  static const String lg43 =
+      "assets/largeintestinepictures/largeintestine43.png";
+  static const String lg44 =
+      "assets/largeintestinepictures/largeintestine44.png";
+  static const String lg45 =
+      "assets/largeintestinepictures/largeintestine45.png";
+  static const String lg46 =
+      "assets/largeintestinepictures/largeintestine46.png";
+  static const String lg47 =
+      "assets/largeintestinepictures/largeintestine47.png";
+  static const String lg48 =
+      "assets/largeintestinepictures/largeintestine48.png";
+  static const String lg49 =
+      "assets/largeintestinepictures/largeintestine49.png";
+  static const String lg50 =
+      "assets/largeintestinepictures/largeintestine50.png";
+  static const String lg51 =
+      "assets/largeintestinepictures/largeintestine51.png";
+  static const String va1 = "assets/vermiformappendixpictures/appendix1.png";
+  static const String va2 = "assets/vermiformappendixpictures/appendix2.png";
+  static const String va3 = "assets/vermiformappendixpictures/appendix3.png";
+  static const String va4 = "assets/vermiformappendixpictures/appendix4.png";
+  static const String va5 = "assets/vermiformappendixpictures/appendix5.png";
+  static const String va6 = "assets/vermiformappendixpictures/appendix6.png";
+  static const String va7 = "assets/vermiformappendixpictures/appendix7.png";
+  static const String va8 = "assets/vermiformappendixpictures/appendix8.png";
+  static const String va9 = "assets/vermiformappendixpictures/appendix9.png";
+  static const String va10 = "assets/vermiformappendixpictures/appendix10.png";
+  static const String va11 = "assets/vermiformappendixpictures/appendix11.png";
+  static const String va12 = "assets/vermiformappendixpictures/appendix12.png";
+  static const String va13 = "assets/vermiformappendixpictures/appendix13.png";
+  static const String va14 = "assets/vermiformappendixpictures/appendix14.png";
+  static const String va15 = "assets/vermiformappendixpictures/appendix15.png";
+  static const String va16 = "assets/vermiformappendixpictures/appendix16.png";
+  static const String va17 = "assets/vermiformappendixpictures/appendix17.png";
+  static const String va18 = "assets/vermiformappendixpictures/appendix18.png";
+  static const String va19 = "assets/vermiformappendixpictures/appendix19.png";
+  static const String va20 = "assets/vermiformappendixpictures/appendix20.png";
+  static const String va21 = "assets/vermiformappendixpictures/appendix21.png";
+  static const String va22 = "assets/vermiformappendixpictures/appendix22.png";
+  static const String va23 = "assets/vermiformappendixpictures/appendix23.png";
+  static const String va24 = "assets/vermiformappendixpictures/appendix24.png";
+  static const String va25 = "assets/vermiformappendixpictures/appendix25.png";
+  static const String ano1 = "assets/anorectumpictures/anorectum1.png";
+  static const String ano2 = "assets/anorectumpictures/anorectum2.png";
+  static const String ano3 = "assets/anorectumpictures/anorectum3.png";
+  static const String ano4 = "assets/anorectumpictures/anorectum4.png";
+  static const String ano5 = "assets/anorectumpictures/anorectum5.png";
+  static const String ano6 = "assets/anorectumpictures/anorectum6.png";
+  static const String ano7 = "assets/anorectumpictures/anorectum7.png";
+  static const String ano8 = "assets/anorectumpictures/anorectum8.png";
+  static const String ano9 = "assets/anorectumpictures/anorectum9.png";
+  static const String ano10 = "assets/anorectumpictures/anorectum10.png";
+  static const String ano11 = "assets/anorectumpictures/anorectum11.png";
+  static const String ano12 = "assets/anorectumpictures/anorectum12.png";
+  static const String ano13 = "assets/anorectumpictures/anorectum13.png";
+  static const String ano14 = "assets/anorectumpictures/anorectum14.png";
+  static const String ano15 = "assets/anorectumpictures/anorectum15.png";
+  static const String ano16 = "assets/anorectumpictures/anorectum16.png";
+  static const String ano17 = "assets/anorectumpictures/anorectum17.png";
+  static const String ano18 = "assets/anorectumpictures/anorectum18.png";
+  static const String ano19 = "assets/anorectumpictures/anorectum19.png";
+  static const String ano20 = "assets/anorectumpictures/anorectum20.png";
+  static const String ano21 = "assets/anorectumpictures/anorectum21.png";
+  static const String ano22 = "assets/anorectumpictures/anorectum22.png";
+  static const String ano23 = "assets/anorectumpictures/anorectum23.png";
+  static const String ano24 = "assets/anorectumpictures/anorectum24.png";
+  static const String ano25 = "assets/anorectumpictures/anorectum25.png";
+  static const String ano26 = "assets/anorectumpictures/anorectum26.png";
+  static const String ano27 = "assets/anorectumpictures/anorectum27.png";
+  static const String ano28 = "assets/anorectumpictures/anorectum28.png";
+  static const String ano29 = "assets/anorectumpictures/anorectum29.png";
+  static const String ano30 = "assets/anorectumpictures/anorectum30.png";
+  static const String ano31 = "assets/anorectumpictures/anorectum31.png";
+  static const String ano32 = "assets/anorectumpictures/anorectum32.png";
+  static const String ano33 = "assets/anorectumpictures/anorectum33.png";
+  static const String peri1 = "assets/peritoneumpictures/peri1.png";
+  static const String peri2 = "assets/peritoneumpictures/peri2.png";
+  static const String peri3 = "assets/peritoneumpictures/peri3.png";
+  static const String peri4 = "assets/peritoneumpictures/peri4.png";
+  static const String peri5 = "assets/peritoneumpictures/peri5.png";
+  static const String peri6 = "assets/peritoneumpictures/peri6.png";
+  static const String peri7 = "assets/peritoneumpictures/peri7.png";
+  static const String peri8 = "assets/peritoneumpictures/peri8.png";
+  static const String peri9 = "assets/peritoneumpictures/peri9.png";
+  static const String peri10 = "assets/peritoneumpictures/peri10.png";
+  static const String peri11 = "assets/peritoneumpictures/peri11.png";
+  static const String peri12 = "assets/peritoneumpictures/peri12.png";
+  static const String peri13 = "assets/peritoneumpictures/peri13.png";
+  static const String peri14 = "assets/peritoneumpictures/peri14.png";
+  static const String peri15 = "assets/peritoneumpictures/peri15.png";
+  static const String peri16 = "assets/peritoneumpictures/peri16.png";
+  static const String peri17 = "assets/peritoneumpictures/peri17.png";
+  static const String peri18 = "assets/peritoneumpictures/peri18.png";
+  static const String peri19 = "assets/peritoneumpictures/peri19.png";
+  static const String peri20 = "assets/peritoneumpictures/peri20.png";
+  static const String peri21 = "assets/peritoneumpictures/peri21.png";
+  static const String peri22 = "assets/peritoneumpictures/peri22.png";
+  static const String peri23 = "assets/peritoneumpictures/peri23.png";
+  static const String peri24 = "assets/peritoneumpictures/peri24.png";
+  static const String peri25 = "assets/peritoneumpictures/peri25.png";
+  static const String peri26 = "assets/peritoneumpictures/peri26.png";
+  static const String peri27 = "assets/peritoneumpictures/peri27.png";
+  static const String peri28 = "assets/peritoneumpictures/peri28.png";
+  static const String peri29 = "assets/peritoneumpictures/peri29.png";
+  static const String peri30 = "assets/peritoneumpictures/peri30.png";
+  static const String peri31 = "assets/peritoneumpictures/peri31.png";
+  static const String peri32 = "assets/peritoneumpictures/peri32.png";
+  static const String peri33 = "assets/peritoneumpictures/peri33.png";
+  static const String peri34 = "assets/peritoneumpictures/peri34.png";
+  static const String peri35 = "assets/peritoneumpictures/peri35.png";
+  static const String peri36 = "assets/peritoneumpictures/peri36.png";
+  static const String peri37 = "assets/peritoneumpictures/peri37.png";
+  static const String peri38 = "assets/peritoneumpictures/peri38.png";
+  static const String peri39 = "assets/peritoneumpictures/peri39.png";
+  static const String peri40 = "assets/peritoneumpictures/peri40.png";
+  static const String peri41 = "assets/peritoneumpictures/peri41.png";
+  static const String peri42 = "assets/peritoneumpictures/peri42.png";
+  static const String pro1 = "assets/processpictures/pro1.png";
+  static const String pro2 = "assets/processpictures/pro2.png";
+  static const String pro3 = "assets/processpictures/pro3.png";
+  static const String pro4 = "assets/processpictures/pro4.png";
+  static const String pro5 = "assets/processpictures/pro5.png";
+  static const String pro6 = "assets/processpictures/pro6.png";
+  static const String pro7 = "assets/processpictures/pro7.png";
+  static const String pro8 = "assets/processpictures/pro8.png";
+  static const String pro9 = "assets/processpictures/pro9.png";
+  static const String pro10 = "assets/processpictures/pro10.png";
+  static const String pro11 = "assets/processpictures/pro11.png";
+  static const String pro12 = "assets/processpictures/pro12.png";
+  static const String pro13 = "assets/processpictures/pro13.png";
+  static const String pro14 = "assets/processpictures/pro14.png";
+  static const String pro15 = "assets/processpictures/pro15.png";
+  static const String pro16 = "assets/processpictures/pro16.png";
+  static const String pro17 = "assets/processpictures/pro17.png";
+  static const String pro18 = "assets/processpictures/pro18.png";
+  static const String pro19 = "assets/processpictures/pro19.png";
+  static const String pro20 = "assets/processpictures/pro20.png";
+  static const String pro21 = "assets/processpictures/pro21.png";
+  static const String pro22 = "assets/processpictures/pro22.png";
 }
