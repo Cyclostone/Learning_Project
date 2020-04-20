@@ -5,6 +5,8 @@ import 'package:learning_platform_app/pages/anatomy_listpage.dart';
 import 'package:learning_platform_app/images.dart';
 import 'package:learning_platform_app/pages/stomach_content/relations_peritoneal_attachments2.dart';
 
+import '../../form_page.dart';
+
 class EvalDuodoPage extends StatelessWidget {
   // final Lesson lesson;
   // IntroPage({Key key, this.lesson}) : super(key: key);
@@ -123,9 +125,7 @@ class EvalDuodoPage extends StatelessWidget {
             Navigator.push(
                 context,
                 CupertinoPageRoute(
-                    builder: (context) => ListPage(
-                          title: 'ANATOMY OF ABDOMEN',
-                        )))
+                    builder: (context) => HomeMaterial()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("FINISH", style: TextStyle(color: Colors.white)),

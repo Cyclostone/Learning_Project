@@ -2,71 +2,24 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:learning_platform_app/model/lesson.dart';
 import 'package:learning_platform_app/pages/stomach_content/introduction.dart';
+import 'package:learning_platform_app/pages/tongue_content/parts.dart';
 
-class DetailPage extends StatelessWidget {
-  final Lesson lesson;
-  DetailPage({Key key, this.lesson}) : super(key: key);
+class TongueDetailPage extends StatelessWidget {
+  final String title;
+  TongueDetailPage({Key key, this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    // final levelIndicator = Container(
-    //   child: Container(
-    //     child: LinearProgressIndicator(
-    //       backgroundColor: Color.fromRGBO(209, 224, 224, 0.2),
-    //       value: lesson.indicatorValue,
-    //       valueColor: AlwaysStoppedAnimation(Colors.green),
-    //     ),
-    //   ),
-    // );
-
-    // final coursePrice = Container(
-    //   padding: const EdgeInsets.all(7.0),
-    //   decoration: new BoxDecoration(
-    //       border: new Border.all(color: Colors.white),
-    //       borderRadius: BorderRadius.circular(5.0)),
-    //   child: new Text(
-    //     // "\$20",
-    //     "\$" + lesson.price.toString(),
-    //     style: TextStyle(color: Colors.white),
-    //   ),
-    // );
-
     final topContentText = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        SizedBox(height: 40.0),
-        // Icon(
-        //   Icons.directions_car,
-        //   color: Colors.white,
-        //   size: 40.0,
-        // ),
-        // Container(
-        //   width: 90.0,
-        //   child: new Divider(color: Colors.green),
-        // ),
-        SizedBox(height: 10.0),
+        SizedBox(height: 50.0),
         Text(
-          lesson.title,
+          title,
           style: TextStyle(color: Colors.white, fontSize: 30.0),
         ),
-        // SizedBox(height: 30.0),
-        // Row(
-        //   mainAxisAlignment: MainAxisAlignment.start,
-        //   children: <Widget>[
-        //     Expanded(flex: 1, child: levelIndicator),
-        //     Expanded(
-        //         flex: 6,
-        //         child: Padding(
-        //             padding: EdgeInsets.only(left: 10.0),
-        //             child: Text(
-        //               lesson.level,
-        //               style: TextStyle(color: Colors.white),
-        //             ))),
-        // Expanded(flex: 1, child: coursePrice)
       ],
     );
-    //   ],
-    // );
 
     final topContent = Stack(
       children: <Widget>[
@@ -102,7 +55,7 @@ class DetailPage extends StatelessWidget {
     );
 
     final bottomContentText = Text(
-      lesson.content,
+      "1.Parts, Nomenclature and Surfaces \n2.Applied importance of ventral surface of tongue – sublingual route of administration of drug \n3.Dorsal surface \n4.Papillae and muscles of the tongue \n5.Blood Supply, Lymphatic Drainage and Innervation \n6.Development of tongue and Developmental anomalies \n7.Structure of taste buds and taste categories \n8.Taste pathway \n9.Clinical significance \n10.Clinical testing of tongue – motor and sensory",
       style: TextStyle(fontSize: 18.0),
     );
     final readButton = Container(
@@ -110,8 +63,8 @@ class DetailPage extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: RaisedButton(
           onPressed: () => {
-            Navigator.push(
-                context, CupertinoPageRoute(builder: (context) => IntroPage()))
+            Navigator.push(context,
+                CupertinoPageRoute(builder: (context) => PartsTonguePage()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("Next", style: TextStyle(color: Colors.white)),
@@ -138,7 +91,7 @@ class DetailPage extends StatelessWidget {
             ),
             SizedBox(height: 20),
             bottomContentText,
-            SizedBox(height: 200),
+            SizedBox(height: 100),
             readButton,
           ],
         ),

@@ -83,11 +83,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           imagePath: Images.anatomy,
                           lessonName: Strings.anatomy,
                           numberOfCourses: "10",
+                          isLocked: false,
                         ),
                         PortraitCard(
                           imagePath: Images.locked,
                           lessonName: Strings.physiology,
                           numberOfCourses: "34",
+                          isLocked: true,
                         ),
                       ],
                     ),
@@ -108,11 +110,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           imagePath: Images.locked,
                           lessonName: Strings.biochemistry,
                           numberOfCourses: "34",
+                          isLocked: true,
                         ),
                         PortraitCard(
                           imagePath: Images.locked,
                           lessonName: Strings.pathology,
                           numberOfCourses: "34",
+                          isLocked: true,
                         ),
                       ],
                     ),
@@ -133,11 +137,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.pharmacology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.microbiology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -158,11 +164,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.forensicmedicine,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.communitymedicine,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -183,11 +191,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.ophthalmology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.ent,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -208,11 +218,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.paediatrics,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.obstetrics_gynecology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -233,11 +245,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.generalsurgery,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.generalmedicine,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -258,11 +272,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.anesthesia,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.radiology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -283,11 +299,13 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.dermatology,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                           PortraitCard(
                             imagePath: Images.locked,
                             lessonName: Strings.psychiatry,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -308,6 +326,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             imagePath: Images.locked,
                             lessonName: Strings.orthopedics,
                             numberOfCourses: "34",
+                            isLocked: true,
                           ),
                         ],
                       ),
@@ -325,9 +344,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
 class PortraitCard extends StatelessWidget {
   final String imagePath, lessonName, numberOfCourses;
+  final bool isLocked;
 
   const PortraitCard(
-      {Key key, this.imagePath, this.lessonName, this.numberOfCourses})
+      {Key key,
+      this.imagePath,
+      this.lessonName,
+      this.numberOfCourses,
+      this.isLocked})
       : super(key: key);
 
   @override
@@ -336,8 +360,10 @@ class PortraitCard extends StatelessWidget {
       padding: EdgeInsets.all(1.0),
       child: InkWell(
         onTap: () {
-          Navigator.push(context,
-              CupertinoPageRoute(builder: (context) => SubHomeScreen()));
+          !isLocked
+              ? Navigator.push(context,
+                  CupertinoPageRoute(builder: (context) => SubHomeScreen()))
+              : null;
         },
         child: Material(
           child: Container(

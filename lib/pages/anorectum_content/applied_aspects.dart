@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:learning_platform_app/form_page.dart';
 import 'package:learning_platform_app/model/lesson.dart';
 import 'package:learning_platform_app/pages/anatomy_listpage.dart';
 import 'package:learning_platform_app/images.dart';
@@ -248,11 +249,8 @@ class AppAspectsAnoPage extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: RaisedButton(
           onPressed: () => {
-            Navigator.push(
-                context,
-                CupertinoPageRoute(
-                    builder: (context) =>
-                        ListPage(title: 'ANATOMY OF ABDOMEN')))
+            Navigator.push(context,
+                CupertinoPageRoute(builder: (context) => HomeMaterial()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("Finish", style: TextStyle(color: Colors.white)),

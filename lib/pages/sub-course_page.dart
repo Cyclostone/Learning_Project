@@ -7,6 +7,7 @@ import 'package:learning_platform_app/size_config.dart';
 import 'package:learning_platform_app/strings.dart';
 
 import '../styling.dart';
+import 'anatomy_listpage_mk2.dart';
 
 class SubHomeScreen extends StatelessWidget {
   @override
@@ -180,7 +181,7 @@ class PortraitCard extends StatelessWidget {
           Navigator.push(
               context,
               CupertinoPageRoute(
-                  builder: (context) => ListPage(title: 'ANATOMY OF ABDOMEN',)));
+                  builder: (context) => ListPage(title: 'ANATOMY OF ABDOMEN')));
         },
         child: Material(
           child: Container(

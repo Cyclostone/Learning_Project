@@ -8,6 +8,8 @@ import 'package:learning_platform_app/pages/jejunum_ileum_content/histology_func
 import 'package:learning_platform_app/pages/stomach_content/applied_aspects.dart';
 import 'package:learning_platform_app/pages/stomach_content/relations_peritoneal_attachments2.dart';
 
+import '../../form_page.dart';
+
 class AppAspLiverPage extends StatelessWidget {
   // final Lesson lesson;
   // IntroPage({Key key, this.lesson}) : super(key: key);
@@ -258,11 +260,8 @@ class AppAspLiverPage extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: RaisedButton(
           onPressed: () => {
-            Navigator.push(
-                context,
-                CupertinoPageRoute(
-                    builder: (context) =>
-                        ListPage(title: 'ANATOMY OF ABDOMEN')))
+            Navigator.push(context,
+                CupertinoPageRoute(builder: (context) => HomeMaterial()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("Finish", style: TextStyle(color: Colors.white)),

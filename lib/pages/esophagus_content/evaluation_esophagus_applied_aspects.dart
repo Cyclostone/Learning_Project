@@ -7,6 +7,8 @@ import 'package:learning_platform_app/pages/esophagus_content/innervation_clinic
 import 'package:learning_platform_app/pages/stomach_content/applied_aspects.dart';
 import 'package:learning_platform_app/pages/stomach_content/relations_peritoneal_attachments2.dart';
 
+import '../../form_page.dart';
+
 class EvalEsoPage extends StatelessWidget {
   // final Lesson lesson;
   // IntroPage({Key key, this.lesson}) : super(key: key);
@@ -430,9 +432,7 @@ class EvalEsoPage extends StatelessWidget {
             Navigator.push(
                 context,
                 CupertinoPageRoute(
-                    builder: (context) => ListPage(
-                          title: 'ANATOMY OF ABDOMEN',
-                        )))
+                    builder: (context) => HomeMaterial()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("Next", style: TextStyle(color: Colors.white)),

@@ -10,6 +10,8 @@ import 'package:learning_platform_app/pages/oralCavity_content/teeth-2sets.dart'
 import 'package:learning_platform_app/pages/stomach_content/applied_aspects.dart';
 import 'package:learning_platform_app/pages/stomach_content/relations_peritoneal_attachments2.dart';
 
+import '../../form_page.dart';
+
 class CompProcessPage extends StatelessWidget {
   // final Lesson lesson;
   // IntroPage({Key key, this.lesson}) : super(key: key);
@@ -162,11 +164,8 @@ class CompProcessPage extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: RaisedButton(
           onPressed: () => {
-            Navigator.push(
-                context,
-                CupertinoPageRoute(
-                    builder: (context) =>
-                        ListPage(title: 'ANATOMY OF ABDOMEN')))
+            Navigator.push(context,
+                CupertinoPageRoute(builder: (context) => HomeMaterial()))
           },
           color: Color.fromRGBO(58, 66, 86, 1.0),
           child: Text("Finish", style: TextStyle(color: Colors.white)),
